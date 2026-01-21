@@ -25,7 +25,7 @@ Pengguna dapat mengunggah gambar, lalu sistem akan menampilkan **hasil prediksi*
 ## 🖼️ Tampilan Aplikasi
 
 ### Halaman Upload Gambar
-![Upload Image](Screenshots_1.jpg)
+![Upload Image](https://github.com/Alfredo-jul/project_ResNet_anjing_dan_kucing/raw/main/Screenshots_1.jpg)
 
 ### Hasil Prediksi
 ![Prediction Result](Screenshots_2.jpg)
