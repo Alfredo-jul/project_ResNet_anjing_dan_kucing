@@ -25,10 +25,11 @@ Pengguna dapat mengunggah gambar, lalu sistem akan menampilkan **hasil prediksi*
 ## 🖼️ Tampilan Aplikasi
 
 ### Halaman Upload Gambar
-![Upload Image](screenshots/upload.png)
+![Upload Image](Screenshots_1.jpg)
 
 ### Hasil Prediksi
-![Prediction Result](screenshots/prediction.png)
+![Prediction Result](Screenshots_2.jpg)
+![Prediction Result](Screenshots_3.jpg)
 
 ---
 
