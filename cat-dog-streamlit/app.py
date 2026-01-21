@@ -43,7 +43,7 @@ uploaded = st.file_uploader("Upload gambar (jpg/png)", type=["jpg", "jpeg", "png
 
 if uploaded:
     img = Image.open(uploaded)
-    st.image(img, caption="Gambar yang diupload", use_container_width=True)
+    st.image(img, caption="Gambar yang diupload", width=300)
 
     if st.button("Predict", type="primary"):
         try:
@@ -54,6 +54,10 @@ if uploaded:
                 x = x / 255.0
 
             pred = model.predict(x, verbose=0)
+
+            st.write("Pred raw:", pred)
+            prob = float(np.squeeze(pred))
+            st.write("Prob (dog=1):", prob)
 
             # pred biasanya shape (1,1) untuk binary sigmoid
             prob = float(pred[0][0]) if pred.ndim == 2 else float(pred[0])
